@@ -1,0 +1,56 @@
+body{
+  background-color: darkgray;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    
+  }
+
+  table,
+  tr,
+  td {
+    padding: 10px;
+   border-collapse: collapse;
+  
+  }
+.workTable{width: 70%;}
+
+.workTable * {
+  border: 1px solid blueviolet;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 10px;
+}
+.workTable tr:hover{
+  background-color: cornflowerblue;
+  font-size: large;
+}
+
+
+
+.skillsTable{
+  width: 70%;
+}
+
+  .skillsTable * {
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .skillsTable  th:hover{
+    background-color: cornflowerblue;
+    font-size: large;
+  }
+
+
+  #form1{
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
